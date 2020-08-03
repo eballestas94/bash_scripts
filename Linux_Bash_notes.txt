@@ -1,0 +1,4 @@
+#  -- Sharp
+!  -- Bang
+#! -- shebang
+chmod 755 << change the permits
