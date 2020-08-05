@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Make sure the script is being executed with superuser privileges.
 if [[ ${UID} -eq 0 ]]
   then
@@ -29,7 +28,6 @@ then
 else
   echo "error adding user"
 fi
-
 
 # Set the password.
 echo ${PASSWORD} | passwd --stdin ${USERNAME}
